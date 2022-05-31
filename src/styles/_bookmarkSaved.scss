@@ -1,0 +1,67 @@
+.savedinfo {
+  padding-top: 80px;
+  margin-left: 100px;
+  margin: 0 auto;
+
+  &__main {
+    width: 720px;
+  }
+
+  &__avabox {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  &__ava {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__name {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 4px;
+  }
+
+  &__data {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.767);
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 36px;
+  }
+
+  &__list {
+    list-style-type: none;
+  }
+
+  &__item {
+
+  }
+
+  &__input {
+    border-left: 2px solid #000;
+    color: rgba(41, 41, 41, 1);
+    padding: 2px 15px;
+    opacity: 0.8;
+    margin-bottom: 25px;
+  }
+
+  &__ {
+
+  }
+
+  &__ {
+
+  }
+
+  &__ {
+
+  }
+}

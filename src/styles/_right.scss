@@ -1,0 +1,27 @@
+.righte {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid rgba(230, 230, 230, 1);
+  padding: 10px;
+  padding-top: 200px;
+
+  &__box {
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 40px 50px;
+  }
+
+  &__text {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+  }
+
+}
