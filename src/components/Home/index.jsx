@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { data } from "../data/data";
-import Left from "../Left";
+import Left from "../Navbar";
 import Main from "../Main";
 
 export default function Home({wishCate, setClist, clist, save, setSave}) {

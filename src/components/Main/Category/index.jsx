@@ -13,6 +13,9 @@ export default function ContentAdd({databaza, content, setContent}) {
 
   let cateHandler = (e) => {
     setContent(databaza.filter(item => item.type === e.target.id))
+    if(e.target.id === "all") {
+      setContent(databaza.filter(item => item.type !== e.target.id))
+    }
   }
 
   return(
@@ -24,6 +27,9 @@ export default function ContentAdd({databaza, content, setContent}) {
       </NavLink>
     </div>
     <ul className="main__catelist d-flex list-unstyled">
+    <li className="main__cateitem">
+      <button onClick={cateHandler} id="all" className="main__catebtn">All</button>
+    </li>
       {type.map((item, key) => {
         return(
           <li key={key+333} className="main__cateitem">

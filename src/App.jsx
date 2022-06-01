@@ -1,13 +1,12 @@
 import { useState } from 'react';
 import {Route, Routes } from 'react-router-dom';
+import Publish from './components/addPublish';
 import Bookmark from './components/Bookmark';
 import BookmarkSaved from './components/Bookmark/Bookmark';
 import Home from './components/Home';
-import Left from './components/Left/';
-import Main from './components/Main';
 import ContentInfo from './components/Main/Content/Content';
-import SignIn from './components/Sign/Signin';
 import SignUp from './components/Sign/Signup';
+
 
 function App() {
   let [name, setName] = useState()
@@ -23,16 +22,17 @@ function App() {
   let [clist, setClist] = useState(false)
 
   //saved
-
   let [wishCate2, setWishCate2] = useState([])
   let [wishCate, setWishCate] = useState([])
 
   //save
   let [save, setSave] = useState([])
 
+  //data
+  let [data, setData] = useState([])
+
   return(
     <>
-
       <Routes>
         <Route path='/' element={<SignUp
           setName={setName}
@@ -62,6 +62,10 @@ function App() {
             save={save}
             setSave={setSave}
           />} />
+          <Route path='/addpublish' element={<Publish
+            data={data}
+            setData={setData}
+        />} />
       </Routes>
     </>
 

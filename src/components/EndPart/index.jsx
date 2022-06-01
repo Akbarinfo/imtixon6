@@ -1,7 +1,7 @@
 import React from "react";
 //sass
 
-export default function RightPart() {
+export default function EndPart() {
   return(
     <section className="righte">
       <div className="righte__box">

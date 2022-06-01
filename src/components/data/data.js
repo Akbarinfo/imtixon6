@@ -22,7 +22,105 @@ export let data = [
   type: "Backend",
   read: "5 min read",
   avatar: 'https://picsum.photos/id/23/100',
-  img: 'https://picsum.photos/id/23/100'
+  img: 'https://picsum.photos/id/23/100',
+  like: "132",
+  comment: "9",
+  commentArr: [
+    {
+      id: "1",
+      userAvatar:
+        "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+      commentName: "MXM",
+      commentDate: "25 days ago",
+      commentText:
+        "I have a PhD in Cognitive Psychology with a specialty area of HCI and over 30 years of experience in the field we now call UX. I have been targeted for ageist layoffs twice in my 50s. In my last job search 3 years ago, I applied to over 100 jobs",
+      commentClub: "36",
+    },
+    {
+      id: "2",
+      userAvatar:
+        "https://miro.medium.com/fit/c/40/40/1*40uVS-9JquYZTHKx0YVGvQ.jpeg",
+      commentName: "Soungbogbo Omotayo",
+      commentDate: "29 days ago",
+      commentText: `I’m happy for you 👏🏻👏🏻
+      Tapping from your grace would help when I start applying for jobs in UX 😫😫😫`,
+      commentClub: "1",
+    },
+    {
+      id: "3",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/0*G3M_xM7ypQHvow1q",
+      commentName: "Aashishb",
+      commentDate: "about 1 month ago",
+      commentText: `Hello, I am aashish from Jodhpur, India
+      Prepare for ux developer,
+      I see your ads and see profile. 😫😫😫`,
+      commentClub: "13",
+    },
+    {
+      id: "4",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/0*KyAs6-tZsvVsPsKB",
+      commentName: "Dana Wu",
+      commentDate: "15 days ago",
+      commentText: `Hi Afroze, great article! It will be super 👏🏻👏🏻 helpful for a lot of people if you can share more about how did you get referal through linkedin : )`,
+      commentClub: "4",
+    },
+    {
+      id: "5",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*rtwEUAxCH4FvZ7mOHcF_UA.png",
+      commentName: "Abdullah Ashari",
+      commentDate: "20 days ago",
+      commentText: `Hi! May I know are your LinkedIn connections are those you know in person from your school or work, or are they people you just met on LinkedIn who are in the design field that you are interested in venturing into?`,
+      commentClub: "",
+    },
+    {
+      id: "6",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*aSUe5V4rGqTzN1hsQILDRw.jpeg",
+      commentName: "Arina Lowery",
+      commentDate: "25 days ago (edited)",
+      commentText: `I am a little bit confused. How a candidate can be seen as a 'passionate' one if they don't even have 1 project in their portfolio? Even if it is a bad project it already shows that the candidate is trying to learn on their own and, indeed, has`,
+      commentClub: "24",
+    },
+    {
+      id: "7",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*aMq3ANt8EHeCZMQZz6pJzg.jpeg",
+      commentName: "Uka I. Paul",
+      commentDate: "9 days ago",
+      commentText: `Thanks alot for this... I really enjoyed reading everything and also learnt alot from it. I'm much confident and prepared for any interview now.`,
+      commentClub: "24",
+    },
+    {
+      id: "8",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*dmbNkD5D-u45r44go_cf0g.png",
+      commentName: "Jessie Keel",
+      commentDate: "13 days ago",
+      commentText: `This was absolutely amazing and super helpful for someone new to the UX scene , yet my experience and skill set from previous jobs are very much related to the Design Thinking Process`,
+      commentClub: "",
+    },
+    {
+      id: "9",
+      userAvatar:
+      "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+    commentName: "MXM",
+    commentDate: "25 days ago",
+    commentText:
+      "I have a PhD in Cognitive Psychology with a specialty area of HCI and over 30 years of experience in the field we now call UX. I have been targeted for ageist layoffs twice in my 50s. In my last job search 3 years ago, I applied to over 100 jobs",
+    commentClub: "36",
+  },
+],
+
+  replayArr: [
+    {
+      id: "1",
+      userAvatar:
+      "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+      commentName: "John",
+      commentDate: "1 day ago",
+      commentText:
+        "Have you ever tried improving yourself, but ended up being lazy and tired again?",
+      commentClub: "36",
+    }
+  ]
+
 
   },
 
@@ -48,8 +146,105 @@ export let data = [
     type: "Frontend",
     read: "5 min read",
     avatar: 'https://picsum.photos/id/63/100',
-    img: 'https://picsum.photos/id/63/100'
+    img: 'https://picsum.photos/id/63/100',
+    like: "132",
+  comment: "9",
 
+  replayArr: [
+    {
+      id: "1",
+      userAvatar:
+      "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+      commentName: "John",
+      commentDate: "1 day ago",
+      commentText:
+        "Have you ever tried improving yourself, but ended up being lazy and tired again?",
+      commentClub: "36",
+    }
+  ],
+
+  commentArr: [
+    {
+      id: "1",
+      userAvatar:
+        "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+      commentName: "MXM",
+      commentDate: "25 days ago",
+      commentText:
+        "I have a PhD in Cognitive Psychology with a specialty area of HCI and over 30 years of experience in the field we now call UX. I have been targeted for ageist layoffs twice in my 50s. In my last job search 3 years ago, I applied to over 100 jobs",
+      commentClub: "36",
+    },
+    {
+      id: "2",
+      userAvatar:
+        "https://miro.medium.com/fit/c/40/40/1*40uVS-9JquYZTHKx0YVGvQ.jpeg",
+      commentName: "Soungbogbo Omotayo",
+      commentDate: "29 days ago",
+      commentText: `I’m happy for you 👏🏻👏🏻
+      Tapping from your grace would help when I start applying for jobs in UX 😫😫😫`,
+      commentClub: "1",
+    },
+    {
+      id: "3",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/0*G3M_xM7ypQHvow1q",
+      commentName: "Aashishb",
+      commentDate: "about 1 month ago",
+      commentText: `Hello, I am aashish from Jodhpur, India
+      Prepare for ux developer,
+      I see your ads and see profile. 😫😫😫`,
+      commentClub: "13",
+    },
+    {
+      id: "4",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/0*KyAs6-tZsvVsPsKB",
+      commentName: "Dana Wu",
+      commentDate: "15 days ago",
+      commentText: `Hi Afroze, great article! It will be super 👏🏻👏🏻 helpful for a lot of people if you can share more about how did you get referal through linkedin : )`,
+      commentClub: "4",
+    },
+    {
+      id: "5",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*rtwEUAxCH4FvZ7mOHcF_UA.png",
+      commentName: "Abdullah Ashari",
+      commentDate: "20 days ago",
+      commentText: `Hi! May I know are your LinkedIn connections are those you know in person from your school or work, or are they people you just met on LinkedIn who are in the design field that you are interested in venturing into?`,
+      commentClub: "",
+    },
+    {
+      id: "6",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*aSUe5V4rGqTzN1hsQILDRw.jpeg",
+      commentName: "Arina Lowery",
+      commentDate: "25 days ago (edited)",
+      commentText: `I am a little bit confused. How a candidate can be seen as a 'passionate' one if they don't even have 1 project in their portfolio? Even if it is a bad project it already shows that the candidate is trying to learn on their own and, indeed, has`,
+      commentClub: "24",
+    },
+    {
+      id: "7",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*aMq3ANt8EHeCZMQZz6pJzg.jpeg",
+      commentName: "Uka I. Paul",
+      commentDate: "9 days ago",
+      commentText: `Thanks alot for this... I really enjoyed reading everything and also learnt alot from it. I'm much confident and prepared for any interview now.`,
+      commentClub: "24",
+    },
+    {
+      id: "8",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*dmbNkD5D-u45r44go_cf0g.png",
+      commentName: "Jessie Keel",
+      commentDate: "13 days ago",
+      commentText: `This was absolutely amazing and super helpful for someone new to the UX scene , yet my experience and skill set from previous jobs are very much related to the Design Thinking Process`,
+      commentClub: "",
+    },
+    {
+      id: "9",
+      userAvatar:
+      "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+    commentName: "MXM",
+    commentDate: "25 days ago",
+    commentText:
+      "I have a PhD in Cognitive Psychology with a specialty area of HCI and over 30 years of experience in the field we now call UX. I have been targeted for ageist layoffs twice in my 50s. In my last job search 3 years ago, I applied to over 100 jobs",
+    commentClub: "36",
+  },
+],
   },
 
   {
@@ -72,7 +267,104 @@ export let data = [
     type: "Python",
     read: "5 min read",
     avatar: 'https://picsum.photos/id/64/100',
-    img: 'https://picsum.photos/id/64/100'
+    img: 'https://picsum.photos/id/64/100',
+    like: "132",
+  comment: "9",
+  commentArr: [
+    {
+      id: "1",
+      userAvatar:
+        "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+      commentName: "MXM",
+      commentDate: "25 days ago",
+      commentText:
+        "I have a PhD in Cognitive Psychology with a specialty area of HCI and over 30 years of experience in the field we now call UX. I have been targeted for ageist layoffs twice in my 50s. In my last job search 3 years ago, I applied to over 100 jobs",
+      commentClub: "36",
+    },
+    {
+      id: "2",
+      userAvatar:
+        "https://miro.medium.com/fit/c/40/40/1*40uVS-9JquYZTHKx0YVGvQ.jpeg",
+      commentName: "Soungbogbo Omotayo",
+      commentDate: "29 days ago",
+      commentText: `I’m happy for you 👏🏻👏🏻
+      Tapping from your grace would help when I start applying for jobs in UX 😫😫😫`,
+      commentClub: "1",
+    },
+    {
+      id: "3",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/0*G3M_xM7ypQHvow1q",
+      commentName: "Aashishb",
+      commentDate: "about 1 month ago",
+      commentText: `Hello, I am aashish from Jodhpur, India
+      Prepare for ux developer,
+      I see your ads and see profile. 😫😫😫`,
+      commentClub: "13",
+    },
+    {
+      id: "4",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/0*KyAs6-tZsvVsPsKB",
+      commentName: "Dana Wu",
+      commentDate: "15 days ago",
+      commentText: `Hi Afroze, great article! It will be super 👏🏻👏🏻 helpful for a lot of people if you can share more about how did you get referal through linkedin : )`,
+      commentClub: "4",
+    },
+    {
+      id: "5",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*rtwEUAxCH4FvZ7mOHcF_UA.png",
+      commentName: "Abdullah Ashari",
+      commentDate: "20 days ago",
+      commentText: `Hi! May I know are your LinkedIn connections are those you know in person from your school or work, or are they people you just met on LinkedIn who are in the design field that you are interested in venturing into?`,
+      commentClub: "",
+    },
+    {
+      id: "6",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*aSUe5V4rGqTzN1hsQILDRw.jpeg",
+      commentName: "Arina Lowery",
+      commentDate: "25 days ago (edited)",
+      commentText: `I am a little bit confused. How a candidate can be seen as a 'passionate' one if they don't even have 1 project in their portfolio? Even if it is a bad project it already shows that the candidate is trying to learn on their own and, indeed, has`,
+      commentClub: "24",
+    },
+    {
+      id: "7",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*aMq3ANt8EHeCZMQZz6pJzg.jpeg",
+      commentName: "Uka I. Paul",
+      commentDate: "9 days ago",
+      commentText: `Thanks alot for this... I really enjoyed reading everything and also learnt alot from it. I'm much confident and prepared for any interview now.`,
+      commentClub: "24",
+    },
+    {
+      id: "8",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*dmbNkD5D-u45r44go_cf0g.png",
+      commentName: "Jessie Keel",
+      commentDate: "13 days ago",
+      commentText: `This was absolutely amazing and super helpful for someone new to the UX scene , yet my experience and skill set from previous jobs are very much related to the Design Thinking Process`,
+      commentClub: "",
+    },
+    {
+      id: "9",
+      userAvatar:
+      "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+    commentName: "MXM",
+    commentDate: "25 days ago",
+    commentText:
+      "I have a PhD in Cognitive Psychology with a specialty area of HCI and over 30 years of experience in the field we now call UX. I have been targeted for ageist layoffs twice in my 50s. In my last job search 3 years ago, I applied to over 100 jobs",
+    commentClub: "36",
+  },
+],
+
+replayArr: [
+  {
+    id: "1",
+    userAvatar:
+    "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+    commentName: "John",
+    commentDate: "1 day ago",
+    commentText:
+      "Have you ever tried improving yourself, but ended up being lazy and tired again?",
+    commentClub: "36",
+  }
+],
 
   },
 
@@ -101,7 +393,104 @@ export let data = [
     type: "Frontend",
     read: "5 min read",
     avatar: 'https://picsum.photos/id/65/100',
-    img: 'https://picsum.photos/id/65/100'
+    img: 'https://picsum.photos/id/65/100',
+    like: "132",
+  comment: "9",
+  commentArr: [
+    {
+      id: "1",
+      userAvatar:
+        "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+      commentName: "MXM",
+      commentDate: "25 days ago",
+      commentText:
+        "I have a PhD in Cognitive Psychology with a specialty area of HCI and over 30 years of experience in the field we now call UX. I have been targeted for ageist layoffs twice in my 50s. In my last job search 3 years ago, I applied to over 100 jobs",
+      commentClub: "36",
+    },
+    {
+      id: "2",
+      userAvatar:
+        "https://miro.medium.com/fit/c/40/40/1*40uVS-9JquYZTHKx0YVGvQ.jpeg",
+      commentName: "Soungbogbo Omotayo",
+      commentDate: "29 days ago",
+      commentText: `I’m happy for you 👏🏻👏🏻
+      Tapping from your grace would help when I start applying for jobs in UX 😫😫😫`,
+      commentClub: "1",
+    },
+    {
+      id: "3",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/0*G3M_xM7ypQHvow1q",
+      commentName: "Aashishb",
+      commentDate: "about 1 month ago",
+      commentText: `Hello, I am aashish from Jodhpur, India
+      Prepare for ux developer,
+      I see your ads and see profile. 😫😫😫`,
+      commentClub: "13",
+    },
+    {
+      id: "4",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/0*KyAs6-tZsvVsPsKB",
+      commentName: "Dana Wu",
+      commentDate: "15 days ago",
+      commentText: `Hi Afroze, great article! It will be super 👏🏻👏🏻 helpful for a lot of people if you can share more about how did you get referal through linkedin : )`,
+      commentClub: "4",
+    },
+    {
+      id: "5",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*rtwEUAxCH4FvZ7mOHcF_UA.png",
+      commentName: "Abdullah Ashari",
+      commentDate: "20 days ago",
+      commentText: `Hi! May I know are your LinkedIn connections are those you know in person from your school or work, or are they people you just met on LinkedIn who are in the design field that you are interested in venturing into?`,
+      commentClub: "",
+    },
+    {
+      id: "6",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*aSUe5V4rGqTzN1hsQILDRw.jpeg",
+      commentName: "Arina Lowery",
+      commentDate: "25 days ago (edited)",
+      commentText: `I am a little bit confused. How a candidate can be seen as a 'passionate' one if they don't even have 1 project in their portfolio? Even if it is a bad project it already shows that the candidate is trying to learn on their own and, indeed, has`,
+      commentClub: "24",
+    },
+    {
+      id: "7",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*aMq3ANt8EHeCZMQZz6pJzg.jpeg",
+      commentName: "Uka I. Paul",
+      commentDate: "9 days ago",
+      commentText: `Thanks alot for this... I really enjoyed reading everything and also learnt alot from it. I'm much confident and prepared for any interview now.`,
+      commentClub: "24",
+    },
+    {
+      id: "8",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*dmbNkD5D-u45r44go_cf0g.png",
+      commentName: "Jessie Keel",
+      commentDate: "13 days ago",
+      commentText: `This was absolutely amazing and super helpful for someone new to the UX scene , yet my experience and skill set from previous jobs are very much related to the Design Thinking Process`,
+      commentClub: "",
+    },
+    {
+      id: "9",
+      userAvatar:
+      "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+    commentName: "MXM",
+    commentDate: "25 days ago",
+    commentText:
+      "I have a PhD in Cognitive Psychology with a specialty area of HCI and over 30 years of experience in the field we now call UX. I have been targeted for ageist layoffs twice in my 50s. In my last job search 3 years ago, I applied to over 100 jobs",
+    commentClub: "36",
+  },
+],
+
+replayArr: [
+  {
+    id: "1",
+    userAvatar:
+    "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+    commentName: "John",
+    commentDate: "1 day ago",
+    commentText:
+      "Have you ever tried improving yourself, but ended up being lazy and tired again?",
+    commentClub: "36",
+  }
+],
 
   },
 
@@ -124,6 +513,103 @@ export let data = [
     read: "5 min read",
     avatar: 'https://picsum.photos/id/66/100',
     img: 'https://picsum.photos/id/66/100',
+    like: "132",
+  comment: "9",
+  commentArr: [
+    {
+      id: "1",
+      userAvatar:
+        "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+      commentName: "MXM",
+      commentDate: "25 days ago",
+      commentText:
+        "I have a PhD in Cognitive Psychology with a specialty area of HCI and over 30 years of experience in the field we now call UX. I have been targeted for ageist layoffs twice in my 50s. In my last job search 3 years ago, I applied to over 100 jobs",
+      commentClub: "36",
+    },
+    {
+      id: "2",
+      userAvatar:
+        "https://miro.medium.com/fit/c/40/40/1*40uVS-9JquYZTHKx0YVGvQ.jpeg",
+      commentName: "Soungbogbo Omotayo",
+      commentDate: "29 days ago",
+      commentText: `I’m happy for you 👏🏻👏🏻
+      Tapping from your grace would help when I start applying for jobs in UX 😫😫😫`,
+      commentClub: "1",
+    },
+    {
+      id: "3",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/0*G3M_xM7ypQHvow1q",
+      commentName: "Aashishb",
+      commentDate: "about 1 month ago",
+      commentText: `Hello, I am aashish from Jodhpur, India
+      Prepare for ux developer,
+      I see your ads and see profile. 😫😫😫`,
+      commentClub: "13",
+    },
+    {
+      id: "4",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/0*KyAs6-tZsvVsPsKB",
+      commentName: "Dana Wu",
+      commentDate: "15 days ago",
+      commentText: `Hi Afroze, great article! It will be super 👏🏻👏🏻 helpful for a lot of people if you can share more about how did you get referal through linkedin : )`,
+      commentClub: "4",
+    },
+    {
+      id: "5",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*rtwEUAxCH4FvZ7mOHcF_UA.png",
+      commentName: "Abdullah Ashari",
+      commentDate: "20 days ago",
+      commentText: `Hi! May I know are your LinkedIn connections are those you know in person from your school or work, or are they people you just met on LinkedIn who are in the design field that you are interested in venturing into?`,
+      commentClub: "",
+    },
+    {
+      id: "6",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*aSUe5V4rGqTzN1hsQILDRw.jpeg",
+      commentName: "Arina Lowery",
+      commentDate: "25 days ago (edited)",
+      commentText: `I am a little bit confused. How a candidate can be seen as a 'passionate' one if they don't even have 1 project in their portfolio? Even if it is a bad project it already shows that the candidate is trying to learn on their own and, indeed, has`,
+      commentClub: "24",
+    },
+    {
+      id: "7",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*aMq3ANt8EHeCZMQZz6pJzg.jpeg",
+      commentName: "Uka I. Paul",
+      commentDate: "9 days ago",
+      commentText: `Thanks alot for this... I really enjoyed reading everything and also learnt alot from it. I'm much confident and prepared for any interview now.`,
+      commentClub: "24",
+    },
+    {
+      id: "8",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*dmbNkD5D-u45r44go_cf0g.png",
+      commentName: "Jessie Keel",
+      commentDate: "13 days ago",
+      commentText: `This was absolutely amazing and super helpful for someone new to the UX scene , yet my experience and skill set from previous jobs are very much related to the Design Thinking Process`,
+      commentClub: "",
+    },
+    {
+      id: "9",
+      userAvatar:
+      "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+    commentName: "MXM",
+    commentDate: "25 days ago",
+    commentText:
+      "I have a PhD in Cognitive Psychology with a specialty area of HCI and over 30 years of experience in the field we now call UX. I have been targeted for ageist layoffs twice in my 50s. In my last job search 3 years ago, I applied to over 100 jobs",
+    commentClub: "36",
+  },
+],
+
+replayArr: [
+  {
+    id: "1",
+    userAvatar:
+    "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+    commentName: "John",
+    commentDate: "1 day ago",
+    commentText:
+      "Have you ever tried improving yourself, but ended up being lazy and tired again?",
+    commentClub: "36",
+  }
+],
 
   },
 
@@ -145,16 +631,113 @@ export let data = [
     type: "Python",
     read: "5 min read",
     avatar: 'https://picsum.photos/id/67/100',
-    img: 'https://picsum.photos/id/67/100'
+    img: 'https://picsum.photos/id/67/100',
+    like: "132",
+  comment: "9",
+  commentArr: [
+    {
+      id: "1",
+      userAvatar:
+        "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+      commentName: "MXM",
+      commentDate: "25 days ago",
+      commentText:
+        "I have a PhD in Cognitive Psychology with a specialty area of HCI and over 30 years of experience in the field we now call UX. I have been targeted for ageist layoffs twice in my 50s. In my last job search 3 years ago, I applied to over 100 jobs",
+      commentClub: "36",
+    },
+    {
+      id: "2",
+      userAvatar:
+        "https://miro.medium.com/fit/c/40/40/1*40uVS-9JquYZTHKx0YVGvQ.jpeg",
+      commentName: "Soungbogbo Omotayo",
+      commentDate: "29 days ago",
+      commentText: `I’m happy for you 👏🏻👏🏻
+      Tapping from your grace would help when I start applying for jobs in UX 😫😫😫`,
+      commentClub: "1",
+    },
+    {
+      id: "3",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/0*G3M_xM7ypQHvow1q",
+      commentName: "Aashishb",
+      commentDate: "about 1 month ago",
+      commentText: `Hello, I am aashish from Jodhpur, India
+      Prepare for ux developer,
+      I see your ads and see profile. 😫😫😫`,
+      commentClub: "13",
+    },
+    {
+      id: "4",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/0*KyAs6-tZsvVsPsKB",
+      commentName: "Dana Wu",
+      commentDate: "15 days ago",
+      commentText: `Hi Afroze, great article! It will be super 👏🏻👏🏻 helpful for a lot of people if you can share more about how did you get referal through linkedin : )`,
+      commentClub: "4",
+    },
+    {
+      id: "5",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*rtwEUAxCH4FvZ7mOHcF_UA.png",
+      commentName: "Abdullah Ashari",
+      commentDate: "20 days ago",
+      commentText: `Hi! May I know are your LinkedIn connections are those you know in person from your school or work, or are they people you just met on LinkedIn who are in the design field that you are interested in venturing into?`,
+      commentClub: "",
+    },
+    {
+      id: "6",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*aSUe5V4rGqTzN1hsQILDRw.jpeg",
+      commentName: "Arina Lowery",
+      commentDate: "25 days ago (edited)",
+      commentText: `I am a little bit confused. How a candidate can be seen as a 'passionate' one if they don't even have 1 project in their portfolio? Even if it is a bad project it already shows that the candidate is trying to learn on their own and, indeed, has`,
+      commentClub: "24",
+    },
+    {
+      id: "7",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*aMq3ANt8EHeCZMQZz6pJzg.jpeg",
+      commentName: "Uka I. Paul",
+      commentDate: "9 days ago",
+      commentText: `Thanks alot for this... I really enjoyed reading everything and also learnt alot from it. I'm much confident and prepared for any interview now.`,
+      commentClub: "24",
+    },
+    {
+      id: "8",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*dmbNkD5D-u45r44go_cf0g.png",
+      commentName: "Jessie Keel",
+      commentDate: "13 days ago",
+      commentText: `This was absolutely amazing and super helpful for someone new to the UX scene , yet my experience and skill set from previous jobs are very much related to the Design Thinking Process`,
+      commentClub: "",
+    },
+    {
+      id: "9",
+      userAvatar:
+      "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+    commentName: "MXM",
+    commentDate: "25 days ago",
+    commentText:
+      "I have a PhD in Cognitive Psychology with a specialty area of HCI and over 30 years of experience in the field we now call UX. I have been targeted for ageist layoffs twice in my 50s. In my last job search 3 years ago, I applied to over 100 jobs",
+    commentClub: "36",
+  },
+],
+
+replayArr: [
+  {
+    id: "1",
+    userAvatar:
+    "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+    commentName: "John",
+    commentDate: "1 day ago",
+    commentText:
+      "Have you ever tried improving yourself, but ended up being lazy and tired again?",
+    commentClub: "36",
+  }
+],
 
   },
 
   {
     id: 7,
     name: "CN",
-    title: "Here Are 5 Fun Questions! Answer In The Comments!",
+    title: "Here Are 5 Fun Questions! Answer In The comment!",
     text: `
-      So, I while back I made a blog about 7 questions you had to answer in the comments( read it here). And I love reading the responses there. So I thought I’d write another blog, now with 5 questions, and again please answer them in the comments : ) !
+      So, I while back I made a blog about 7 questions you had to answer in the comment( read it here). And I love reading the responses there. So I thought I’d write another blog, now with 5 questions, and again please answer them in the comment : ) !
 
       What’s your favourite thing you own and why?- For me it would be my PC Setup. I love that thing. No reason in particular, I just happen to be a pc nerd who likes building PCs and having clean setups.
       If you could have dinner with anyone from history, who would it be?- Either Garry Vee or Steph Curry. Garry Vee because I genuinely think he’s a cool dude, and I could probably learn a few things. Steph Curry because he’s my favourite celebrity and I think he’s fun to hang around.
@@ -165,13 +748,110 @@ export let data = [
       4
     `,
     desc: `
-    So, I while back I made a blog about 7 questions you had to answer in the comments( read it here). And I love reading the responses there. So I thought I’d write another blog, now with 5 questions, and again please answer them in the comments : ) !
+    So, I while back I made a blog about 7 questions you had to answer in the comment( read it here). And I love reading the responses there. So I thought I’d write another blog, now with 5 questions, and again please answer them in the comment : ) !
     `,
     data: 'May 4',
     type: "Js",
     read: "5 min read",
     avatar: 'https://picsum.photos/id/67/100',
-    img: 'https://picsum.photos/id/67/100'
+    img: 'https://picsum.photos/id/67/100',
+    like: "132",
+  comment: "9",
+  commentArr: [
+    {
+      id: "1",
+      userAvatar:
+        "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+      commentName: "MXM",
+      commentDate: "25 days ago",
+      commentText:
+        "I have a PhD in Cognitive Psychology with a specialty area of HCI and over 30 years of experience in the field we now call UX. I have been targeted for ageist layoffs twice in my 50s. In my last job search 3 years ago, I applied to over 100 jobs",
+      commentClub: "36",
+    },
+    {
+      id: "2",
+      userAvatar:
+        "https://miro.medium.com/fit/c/40/40/1*40uVS-9JquYZTHKx0YVGvQ.jpeg",
+      commentName: "Soungbogbo Omotayo",
+      commentDate: "29 days ago",
+      commentText: `I’m happy for you 👏🏻👏🏻
+      Tapping from your grace would help when I start applying for jobs in UX 😫😫😫`,
+      commentClub: "1",
+    },
+    {
+      id: "3",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/0*G3M_xM7ypQHvow1q",
+      commentName: "Aashishb",
+      commentDate: "about 1 month ago",
+      commentText: `Hello, I am aashish from Jodhpur, India
+      Prepare for ux developer,
+      I see your ads and see profile. 😫😫😫`,
+      commentClub: "13",
+    },
+    {
+      id: "4",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/0*KyAs6-tZsvVsPsKB",
+      commentName: "Dana Wu",
+      commentDate: "15 days ago",
+      commentText: `Hi Afroze, great article! It will be super 👏🏻👏🏻 helpful for a lot of people if you can share more about how did you get referal through linkedin : )`,
+      commentClub: "4",
+    },
+    {
+      id: "5",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*rtwEUAxCH4FvZ7mOHcF_UA.png",
+      commentName: "Abdullah Ashari",
+      commentDate: "20 days ago",
+      commentText: `Hi! May I know are your LinkedIn connections are those you know in person from your school or work, or are they people you just met on LinkedIn who are in the design field that you are interested in venturing into?`,
+      commentClub: "",
+    },
+    {
+      id: "6",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*aSUe5V4rGqTzN1hsQILDRw.jpeg",
+      commentName: "Arina Lowery",
+      commentDate: "25 days ago (edited)",
+      commentText: `I am a little bit confused. How a candidate can be seen as a 'passionate' one if they don't even have 1 project in their portfolio? Even if it is a bad project it already shows that the candidate is trying to learn on their own and, indeed, has`,
+      commentClub: "24",
+    },
+    {
+      id: "7",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*aMq3ANt8EHeCZMQZz6pJzg.jpeg",
+      commentName: "Uka I. Paul",
+      commentDate: "9 days ago",
+      commentText: `Thanks alot for this... I really enjoyed reading everything and also learnt alot from it. I'm much confident and prepared for any interview now.`,
+      commentClub: "24",
+    },
+    {
+      id: "8",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*dmbNkD5D-u45r44go_cf0g.png",
+      commentName: "Jessie Keel",
+      commentDate: "13 days ago",
+      commentText: `This was absolutely amazing and super helpful for someone new to the UX scene , yet my experience and skill set from previous jobs are very much related to the Design Thinking Process`,
+      commentClub: "",
+    },
+    {
+      id: "9",
+      userAvatar:
+      "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+    commentName: "MXM",
+    commentDate: "25 days ago",
+    commentText:
+      "I have a PhD in Cognitive Psychology with a specialty area of HCI and over 30 years of experience in the field we now call UX. I have been targeted for ageist layoffs twice in my 50s. In my last job search 3 years ago, I applied to over 100 jobs",
+    commentClub: "36",
+  },
+],
+
+replayArr: [
+  {
+    id: "1",
+    userAvatar:
+    "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+    commentName: "John",
+    commentDate: "1 day ago",
+    commentText:
+      "Have you ever tried improving yourself, but ended up being lazy and tired again?",
+    commentClub: "36",
+  }
+],
 
   },
 
@@ -201,7 +881,105 @@ export let data = [
     type: "Js",
     read: "5 min read",
     avatar: 'https://picsum.photos/id/69/100',
-    img: 'https://picsum.photos/id/69/100'
+    img: 'https://picsum.photos/id/69/100',
+    like: "132",
+  comment: "9",
+  commentArr: [
+    {
+      id: "1",
+      userAvatar:
+        "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+      commentName: "MXM",
+      commentDate: "25 days ago",
+      commentText:
+        "I have a PhD in Cognitive Psychology with a specialty area of HCI and over 30 years of experience in the field we now call UX. I have been targeted for ageist layoffs twice in my 50s. In my last job search 3 years ago, I applied to over 100 jobs",
+      commentClub: "36",
+    },
+    {
+      id: "2",
+      userAvatar:
+        "https://miro.medium.com/fit/c/40/40/1*40uVS-9JquYZTHKx0YVGvQ.jpeg",
+      commentName: "Soungbogbo Omotayo",
+      commentDate: "29 days ago",
+      commentText: `I’m happy for you 👏🏻👏🏻
+      Tapping from your grace would help when I start applying for jobs in UX 😫😫😫`,
+      commentClub: "1",
+    },
+    {
+      id: "3",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/0*G3M_xM7ypQHvow1q",
+      commentName: "Aashishb",
+      commentDate: "about 1 month ago",
+      commentText: `Hello, I am aashish from Jodhpur, India
+      Prepare for ux developer,
+      I see your ads and see profile. 😫😫😫`,
+      commentClub: "13",
+    },
+    {
+      id: "4",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/0*KyAs6-tZsvVsPsKB",
+      commentName: "Dana Wu",
+      commentDate: "15 days ago",
+      commentText: `Hi Afroze, great article! It will be super 👏🏻👏🏻 helpful for a lot of people if you can share more about how did you get referal through linkedin : )`,
+      commentClub: "4",
+    },
+    {
+      id: "5",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*rtwEUAxCH4FvZ7mOHcF_UA.png",
+      commentName: "Abdullah Ashari",
+      commentDate: "20 days ago",
+      commentText: `Hi! May I know are your LinkedIn connections are those you know in person from your school or work, or are they people you just met on LinkedIn who are in the design field that you are interested in venturing into?`,
+      commentClub: "",
+    },
+    {
+      id: "6",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*aSUe5V4rGqTzN1hsQILDRw.jpeg",
+      commentName: "Arina Lowery",
+      commentDate: "25 days ago (edited)",
+      commentText: `I am a little bit confused. How a candidate can be seen as a 'passionate' one if they don't even have 1 project in their portfolio? Even if it is a bad project it already shows that the candidate is trying to learn on their own and, indeed, has`,
+      commentClub: "24",
+    },
+    {
+      id: "7",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*aMq3ANt8EHeCZMQZz6pJzg.jpeg",
+      commentName: "Uka I. Paul",
+      commentDate: "9 days ago",
+      commentText: `Thanks alot for this... I really enjoyed reading everything and also learnt alot from it. I'm much confident and prepared for any interview now.`,
+      commentClub: "24",
+    },
+    {
+      id: "8",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*dmbNkD5D-u45r44go_cf0g.png",
+      commentName: "Jessie Keel",
+      commentDate: "13 days ago",
+      commentText: `This was absolutely amazing and super helpful for someone new to the UX scene , yet my experience and skill set from previous jobs are very much related to the Design Thinking Process`,
+      commentClub: "",
+    },
+    {
+      id: "9",
+      userAvatar:
+      "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+    commentName: "MXM",
+    commentDate: "25 days ago",
+    commentText:
+      "I have a PhD in Cognitive Psychology with a specialty area of HCI and over 30 years of experience in the field we now call UX. I have been targeted for ageist layoffs twice in my 50s. In my last job search 3 years ago, I applied to over 100 jobs",
+    commentClub: "36",
+  },
+],
+
+replayArr: [
+  {
+    id: "1",
+    userAvatar:
+    "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+    commentName: "John",
+    commentDate: "1 day ago",
+    commentText:
+      "Have you ever tried improving yourself, but ended up being lazy and tired again?",
+    commentClub: "36",
+  }
+],
+
   },
 
   {
@@ -216,6 +994,104 @@ export let data = [
     type: 'Java',
     read: "5 min read",
     avatar: 'https://picsum.photos/id/70/100',
-    img: 'https://picsum.photos/id/70/100'
+    img: 'https://picsum.photos/id/70/100',
+    like: "132",
+  comment: "9",
+  commentArr: [
+    {
+      id: "1",
+      userAvatar:
+        "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+      commentName: "MXM",
+      commentDate: "25 days ago",
+      commentText:
+        "I have a PhD in Cognitive Psychology with a specialty area of HCI and over 30 years of experience in the field we now call UX. I have been targeted for ageist layoffs twice in my 50s. In my last job search 3 years ago, I applied to over 100 jobs",
+      commentClub: "36",
+    },
+    {
+      id: "2",
+      userAvatar:
+        "https://miro.medium.com/fit/c/40/40/1*40uVS-9JquYZTHKx0YVGvQ.jpeg",
+      commentName: "Soungbogbo Omotayo",
+      commentDate: "29 days ago",
+      commentText: `I’m happy for you 👏🏻👏🏻
+      Tapping from your grace would help when I start applying for jobs in UX 😫😫😫`,
+      commentClub: "1",
+    },
+    {
+      id: "3",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/0*G3M_xM7ypQHvow1q",
+      commentName: "Aashishb",
+      commentDate: "about 1 month ago",
+      commentText: `Hello, I am aashish from Jodhpur, India
+      Prepare for ux developer,
+      I see your ads and see profile. 😫😫😫`,
+      commentClub: "13",
+    },
+    {
+      id: "4",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/0*KyAs6-tZsvVsPsKB",
+      commentName: "Dana Wu",
+      commentDate: "15 days ago",
+      commentText: `Hi Afroze, great article! It will be super 👏🏻👏🏻 helpful for a lot of people if you can share more about how did you get referal through linkedin : )`,
+      commentClub: "4",
+    },
+    {
+      id: "5",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*rtwEUAxCH4FvZ7mOHcF_UA.png",
+      commentName: "Abdullah Ashari",
+      commentDate: "20 days ago",
+      commentText: `Hi! May I know are your LinkedIn connections are those you know in person from your school or work, or are they people you just met on LinkedIn who are in the design field that you are interested in venturing into?`,
+      commentClub: "",
+    },
+    {
+      id: "6",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*aSUe5V4rGqTzN1hsQILDRw.jpeg",
+      commentName: "Arina Lowery",
+      commentDate: "25 days ago (edited)",
+      commentText: `I am a little bit confused. How a candidate can be seen as a 'passionate' one if they don't even have 1 project in their portfolio? Even if it is a bad project it already shows that the candidate is trying to learn on their own and, indeed, has`,
+      commentClub: "24",
+    },
+    {
+      id: "7",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*aMq3ANt8EHeCZMQZz6pJzg.jpeg",
+      commentName: "Uka I. Paul",
+      commentDate: "9 days ago",
+      commentText: `Thanks alot for this... I really enjoyed reading everything and also learnt alot from it. I'm much confident and prepared for any interview now.`,
+      commentClub: "24",
+    },
+    {
+      id: "8",
+      userAvatar: "https://miro.medium.com/fit/c/40/40/1*dmbNkD5D-u45r44go_cf0g.png",
+      commentName: "Jessie Keel",
+      commentDate: "13 days ago",
+      commentText: `This was absolutely amazing and super helpful for someone new to the UX scene , yet my experience and skill set from previous jobs are very much related to the Design Thinking Process`,
+      commentClub: "",
+    },
+    {
+      id: "9",
+      userAvatar:
+      "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+    commentName: "MXM",
+    commentDate: "25 days ago",
+    commentText:
+      "I have a PhD in Cognitive Psychology with a specialty area of HCI and over 30 years of experience in the field we now call UX. I have been targeted for ageist layoffs twice in my 50s. In my last job search 3 years ago, I applied to over 100 jobs",
+    commentClub: "36",
+  },
+],
+
+replayArr: [
+  {
+    id: "1",
+    userAvatar:
+    "https://miro.medium.com/fit/c/40/40/1*KK9NopjghPSVTnr0YlLOrw@2x.jpeg",
+    commentName: "John",
+    commentDate: "1 day ago",
+    commentText:
+      "Have you ever tried improving yourself, but ended up being lazy and tired again?",
+    commentClub: "36",
+  }
+],
+
   },
 ]

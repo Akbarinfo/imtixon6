@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Left from "../Left";
-import RightPart from "../Right";
+import Left from "../Navbar";
+import RightPart from "../EndPart";
 
 export default function BookmarkSaved({save, setSave}) {
   return(

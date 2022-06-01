@@ -41,7 +41,7 @@
   }
 
   &__box {
-    
+
   }
 
   &__title {
@@ -56,5 +56,47 @@
 
   &__img {
     width: 100%;
+  }
+
+  &__cmbox {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 2px 10px 0px;
+    padding: 9px 14px 9px 16px;
+  }
+
+  &__cmbtn {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    border-right: 1px solid rgb(230, 230, 230);
+    font-size: 14px;
+    color: rgba(117, 117, 117, 1);
+    padding-right: 10px;
+    margin-right: 10px;
+
+    &:nth-child(3) {
+      border-right: none;
+      padding-right: 0;
+    }
+
+    svg:hover {
+      color: green;
+    }
+
+
+  }
+
+  &__dicon {
+    font-size: 24px;
+  }
+
+  &__ {
+
   }
 }

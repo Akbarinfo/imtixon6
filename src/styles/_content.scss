@@ -2,9 +2,6 @@
   width: 80%;
   margin: 0 auto;
 
-  &__header {
-  }
-
   &__header-btn {
     background: none;
     border: none;
@@ -18,12 +15,13 @@
   }
 
   &__list-header {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   &__item {
     width: 700px;
     border-bottom: 1px solid rgba(230, 230, 230, 1);
+    margin-bottom: 20px;
   }
 
   &__avabox {

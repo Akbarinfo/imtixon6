@@ -26,7 +26,7 @@ export default function Navbar() {
         </NavLink>
       </li>
       <li className="left__item">
-        <NavLink className="left__link" to='/cinfo' >
+        <NavLink className="left__link" to='/addpublish' >
           <i className='left__icon bx bx-list-plus'></i>
         </NavLink>
       </li>

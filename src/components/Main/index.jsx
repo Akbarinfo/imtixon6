@@ -1,6 +1,6 @@
 import React from "react";
 import Content from "./Content";
-import ContentAdd from "./Header";
+import ContentAdd from "./Category";
 
 export default function Main({
   databaza,
