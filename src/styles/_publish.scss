@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap');
 .publish {
-  width: 1072px;
-  margin: 0 auto;
+  width: 950px;
   padding-top: 20px;
+  margin: 0 auto;
 
   &__main {
     display: flex;
@@ -19,6 +18,7 @@
     display: flex;
     align-items: center;
   }
+
   &__logo {
     width: 50px;
     height: 50px;
@@ -27,22 +27,22 @@
   }
 
   &__link {
+    background-color: #1a8917;
     border: none;
-    width: 70px;
-    height: 30px;
-    font-size: 15px;
+    font-size: 16px;
     border-radius: 50px;
     color: #fff;
+    padding: 8px 15px;
     margin-right: 25px;
-    background-color: #1a8917;
   }
 
-  &__dots {
+  &__dotbtn {
+    background: none;
     border: none;
-    background-color: transparent;
     font-size: 30px;
     margin-right: 25px;
   }
+
   &__bell {
     border: none;
     background-color: transparent;
@@ -50,6 +50,7 @@
     color: #757575;
     margin-right: 25px;
   }
+
   &__user {
     width: 40px;
     height: 40px;
@@ -62,7 +63,6 @@
     padding: 60px 120px;
     display: flex;
     flex-direction: column;
-    border: 1px solid #1a8917;
   }
 
   &__input {
@@ -82,11 +82,11 @@
   &__inputtext:focus {
     outline: none;
   }
+
   &__inputtext {
     width: 100%;
     height: 100%;
     border: none;
-    font-family: 'Tiro Devanagari Hindi', serif;
     font-size: 30px;
     color: #757575;
     resize: none;
@@ -105,10 +105,5 @@
     border: none;
     font-size: 32px;
     color: #757575;
-  }
-
-  &__boxs {
-    position: relative;
-    padding-left: 50px;
   }
 }

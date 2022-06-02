@@ -44,7 +44,7 @@ html {
   scroll-behavior: smooth;
 }
 
-@import './left';
+@import './navbar';
 @import './right';
 @import './main';
 @import './sign';
@@ -55,3 +55,5 @@ html {
 @import './cInfo';
 @import './comment';
 @import './publish';
+@import './notifi';
+@import './story';

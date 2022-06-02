@@ -44,7 +44,7 @@ export default function BookMoadal({setClist, clist, wishCate, setWishCate, wish
             </label>
             <div className="d-flex justify-content-center">
               <button onClick={cancelHandler} type="button" className="bookmodal__cancel">Cancel</button>
-                <button type="sumbit" className="bookmodal__btn">Create</button>
+                <button type="sumbit" disabled={counts.length >=1 ? false : true} className="bookmodal__btn">Create</button>
             </div>
           </form>
         </div>

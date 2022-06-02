@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import Comments from "./Commeents";
-import Replay from "./Replay";
 
 export default function Comment({
   block,
   setBlock,
-  item
-}) {
+  item,
+  name
+  }) {
 
   //Cancel comment
   let cancelHandler = (e) => {
@@ -25,7 +25,7 @@ export default function Comment({
     setNewcomment([
       {
         userAvatar: "https://picsum.photos/id/23/60",
-        commentName: "Akbarali",
+        commentName: name,
         commentDate: "1 min ago",
         commentText: inputComment,
         commentClub: "0",
@@ -47,7 +47,7 @@ export default function Comment({
             <div className="comment__avabox">
               <img className="comment__ava" src="https://picsum.photos/id/44/60" alt="ava" />
             </div>
-            <h3 className="comment__name">Akbarali</h3>
+            <h3 className="comment__name">{name}</h3>
           </div>
 
           <textarea onChange={commentHandler} className="comment__input" value={inputComment} name="comment" id="" cols="30" rows="10">
@@ -73,7 +73,7 @@ export default function Comment({
 
             <div className="d-flex align-items-center">
               <button className="comment__cbtn">Cancel</button>
-              <button onClick={addCommentHandler} className="comment__rbtn">Respond</button>
+              <button onClick={addCommentHandler} disabled={inputComment.length >= 1 ? false : true} className="comment__rbtn">Respond</button>
             </div>
           </div>
         </div>
@@ -94,6 +94,7 @@ export default function Comment({
                 newcomment={newcomment}
                 com={items}
                 item={item}
+                name={name}
               />
 
             )

@@ -79,6 +79,7 @@
     color: rgba(117, 117, 117, 1);
     padding-right: 10px;
     margin-right: 10px;
+    transition: all 0.4s ease;
 
     &:nth-child(3) {
       border-right: none;
@@ -86,7 +87,9 @@
     }
 
     svg:hover {
-      color: green;
+      fill: green !important;
+      transition: all 0.4s ease;
+
     }
 
 

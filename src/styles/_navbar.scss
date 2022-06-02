@@ -1,0 +1,159 @@
+.navbar {
+  position: fixed;
+  left: 0px;
+  z-index: 100;
+  width: 80px;
+  height: 100vh;
+  border-right: 1px solid rgba(230, 230, 230, 1);
+
+  &__main {
+    width: 80px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logobox {
+    width: 40px;
+    height: 22px;
+    padding: 40px 0;
+    overflow: hidden;
+  }
+
+  &__logo {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__list {
+    list-style-type: none;
+
+  }
+
+  &__item {
+    margin-bottom: 35px;
+
+    &:nth-child(4) {
+      border-bottom: 1px solid rgba(230, 230, 230, 1);
+      padding-bottom: 35px;
+    }
+
+    &:hover .navbar__icon {
+      color: rgba(58, 58, 58, 0.664);
+    }
+  }
+
+  &__icon {
+    font-size: 32px;
+    color: black;
+    transition: all 0.4s ease;
+  }
+
+  &__users {
+    margin-bottom: 40px;
+  }
+
+  &__users-btn {
+    width: 35px;
+    height: 35px;
+    background-color: #4ead2e;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    overflow: hidden;
+  }
+
+
+  &__users {
+    margin-bottom: 40px;
+  }
+
+  &__users-ava {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__use {
+    border: none;
+    background-color: transparent;
+  }
+
+  &__avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  &__modal{
+    z-index: 100;
+    width: 290px;
+    height: 496px;
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: absolute;
+    bottom: 90px;
+    left: 10px;
+    border-radius: 10px;
+    padding: 0 10px;
+  }
+
+  &__modal-list {
+    font-family: sans-serif;
+  }
+
+  &__modal {
+    animation: list 0.5s ease;
+  }
+
+  &__modal-box {
+    margin-left: 20px;
+  }
+
+  &__modal-name {
+    font-size: 16px;
+  }
+
+  &__modal-mail {
+    color: #757575;
+    font-size: 13px;
+  }
+
+  @keyframes list {
+    from {
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
+
+  &__user__icon {
+    font-size: 22px;
+    color: #8a6b49;
+  }
+
+  &__modal-item {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 500;
+
+    &:nth-child(3) {
+      color: rgba(26, 137, 23, 1);
+      border-bottom: 2px solid #e6e6e6;
+    }
+    &:nth-child(8) {
+      border-bottom: 2px solid #e6e6e6;
+    }
+  }
+
+}
+
+.none{
+  display: none;
+}
+.block {
+  display: block;
+}

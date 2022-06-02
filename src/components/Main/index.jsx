@@ -8,9 +8,12 @@ export default function Main({
   setContent,
   wishCate,
   setClist,
+  setWishCate,
   clist,
   save,
-  setSave
+  setSave,
+  setWishCate2,
+  wishCate2,
 }) {
   return(
     <main>
@@ -27,6 +30,9 @@ export default function Main({
         clist={clist}
         save={save}
         setSave={setSave}
+        setWishCate2={setWishCate2}
+        wishCate2={wishCate2}
+        setWishCate={setWishCate}
       />
     </main>
   )

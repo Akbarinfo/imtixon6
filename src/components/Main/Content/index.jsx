@@ -9,7 +9,10 @@ export default function Content({
   setClist,
   clist,
   save,
-  setSave
+  setSave,
+  setWishCate2,
+  wishCate2,
+  setWishCate
 }) {
 
   let [mopen, setMopen] = useState(false)
@@ -102,6 +105,10 @@ export default function Content({
         <BookMoadal
           setClist={setClist}
           clist={clist}
+          setWishCate={setWishCate}
+          wishCate={wishCate}
+          setWishCate2={setWishCate2}
+          wishCate2={wishCate2}
         />
       </section>
 

@@ -1,33 +1,33 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-export default function Navbar() {
+export default function Nav(mail, name) {
   return(
-    <nav className="left__nav">
-    <ul className="left__list">
-      <li className="left__item">
-        <NavLink className="left__link" to='/home' >
-        <i className='left__icon bx bxs-home'></i>
+    <nav className="navbar__nav">
+    <ul className="navbar__list">
+      <li className="navbar__item">
+        <NavLink className="navbar__link" to='/home' >
+        <i className='navbar__icon bx bxs-home'></i>
         </NavLink>
       </li>
-      <li className="left__item">
-        <NavLink className="left__link" to='/sv' >
-          <i className='left__icon bx bx-bell'></i>
+      <li className="navbar__item">
+        <NavLink className="navbar__link" to='/notifi' >
+          <i className='navbar__icon bx bx-bell'></i>
         </NavLink>
       </li>
-      <li className="left__item">
-        <NavLink className="left__link" to='/list' >
-          <i className='left__icon bx bx-bookmarks'></i>
+      <li className="navbar__item">
+        <NavLink className="navbar__link" to='/list' >
+          <i className='navbar__icon bx bx-bookmarks'></i>
         </NavLink>
       </li>
-      <li className="left__item">
-        <NavLink className="left__link" to='/' >
-         <i className='left__icon bx bx-list-ul'></i>
+      <li className="navbar__item">
+        <NavLink className="navbar__link" to='/story' >
+         <i className='navbar__icon bx bx-list-ul'></i>
         </NavLink>
       </li>
-      <li className="left__item">
-        <NavLink className="left__link" to='/addpublish' >
-          <i className='left__icon bx bx-list-plus'></i>
+      <li className="navbar__item">
+        <NavLink className="navbar__link" to='/addpublish' >
+          <i className='navbar__icon bx bx-list-plus'></i>
         </NavLink>
       </li>
     </ul>
