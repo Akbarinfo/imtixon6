@@ -159,7 +159,7 @@ export default function SignUp({setName, setLastName, setPhone,setMail, setPass}
                   <input id="uppass" onBlur={paHandler} onChange={passHandler} className={inpassword ? "sign__input" : "sign__input sign__error"} type="text" placeholder="Password"/>
                 </label>
                 <Link to="/home">
-                  <button type="submit" className="sign__btn" disabled={count >= 1 ? false : true}>Next step</button>
+                  <button type="submit" className="sign__btn" disabled={count >= 5 ? false : true}>Next step</button>
                 </Link>
               </form>
             </div>
